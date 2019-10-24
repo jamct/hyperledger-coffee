@@ -66,7 +66,7 @@ Maschine reinigen, auffüllen und Kaffee entnehmen:
 ```
 peer chaincode invoke -n mycc -c '{"Args":["cleanMachine"]}' -C myc
 peer chaincode invoke -n mycc -c '{"Args":["refillCoffee"]}' -C myc
-peer chaincode invoke -n mycc -c '{"Args":["drawCoffee"]}' -C myc
+peer chaincode invoke -n mycc -c '{"Args":["drawCoffee", "2"]}' -C myc
 ```
 
 
